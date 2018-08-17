@@ -22,7 +22,7 @@
                 </div>
                 <div class="layui-form-item form_code">
                     <input class="layui-input" style="width: 140px;" name="vcode" placeholder="验证码" lay-verify="required" type="text" autocomplete="off" maxlength="4">
-                    <div class="code"><img id="captcha"  width="100" height="36"></div>
+                    <div class="code"><img id="captcha" src="${ctx}/main/vCode" width="100" height="36"></div>
                 </div>
                 <button class="layui-btn login_btn">登录</button>
             </form>
